@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="200.0" prefWidth="250.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"  fx:controller="controllers.ArgController">
+    <children>
+        <TextField fx:id="inputArg" layoutX="51.0" layoutY="87.0" />
+        <Label fx:id="argName" alignment="CENTER" contentDisplay="CENTER" layoutX="23.0" layoutY="36.0" prefHeight="19.0" prefWidth="204.0" text="Аргумент" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="Calibri" size="23.0" />
+            </font>
+        </Label>
+        <Button fx:id="CancelButton" layoutX="150.0" layoutY="139.0" mnemonicParsing="false" onAction="#CancelClick" text="Cancel" />
+        <Button fx:id="OkButton" layoutX="51.0" layoutY="139.0" mnemonicParsing="false" onAction="#OKClick" prefHeight="25.0" prefWidth="50.0" text="OK" />
+    </children>
+</AnchorPane>
