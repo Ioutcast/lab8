@@ -12,8 +12,8 @@ import java.util.LinkedHashMap;
 public class DataBaseManager implements Serializable {
 
     protected static LinkedHashMap<Integer, Worker> workerLinkedHashMap = new LinkedHashMap<Integer, Worker>();
-    private String USER = "s284702";
-    private String PASSWORD = "tfo348";
+    private String USER = "";
+    private String PASSWORD = "";
 
     public DataBaseManager() {
         try {
